@@ -1,6 +1,5 @@
 import React from 'react';
 import Iframe from 'react-iframe';
-import ReactPlayer from 'react-player';
 import Header from './header/header';
 import Member from './member/member';
 import { List } from 'immutable';
@@ -87,8 +86,8 @@ function App() {
         })}
       </div>
       <div className={'video'}>
-        <p className={'videoLabel'}>Watch our demo!</p>
-        <Iframe url="http://www.youtube.com/embed/9vHGYJiPcNE"
+        <p className={'videoLabel'}>Project demo</p>
+        <Iframe url="https://www.youtube.com/embed/RueNdJamGIY"
           width="700px"
           height="450px"
           id="myId"
@@ -171,13 +170,8 @@ function App() {
         </div>
       </div>
       <div className={'video'}>
-        {/*<ReactPlayer
-          url='/videos/betathunderDemo.avi'
-          config={{ file: { forceVideo: 1 } }}
-          playing />
-        */}
-        <p className={'videoLabel'}>Watch our making-of documentary!</p>
-        <Iframe url="http://www.youtube.com/embed/UZvNh0rVGFw"
+        <p className={'videoLabel'}>Watch a short documentary of the project process below</p>
+        <Iframe url="https://www.youtube.com/embed/bxMp1A_O6nA"
           width="700px"
           height="450px"
           id="myId"
