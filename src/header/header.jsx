@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './header.scss';
 
@@ -14,9 +13,7 @@ class Header extends React.PureComponent {
     return (
       <div>
         <div className={'headerWrapper'}>
-          <Link className={'image'} to={'/'}>
-            <img className={'orcImage'} alt={''} src={orcImage} />
-          </Link>
+          <img className={'orcImage'} alt={''} src={orcImage} />
           <div className={'headerColumn1'}>
             <h1 className={'welcomeText'}>Beta Thunder</h1>
             <h2 className={'welcomeCitation'}>"Competitive gameplay, cooperative fun"</h2>
