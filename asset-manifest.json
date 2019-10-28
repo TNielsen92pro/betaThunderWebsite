@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/betaThunderWebsite/static/css/main.232f9f06.chunk.css",
+    "main.js": "/betaThunderWebsite/static/js/main.11dc92d4.chunk.js",
+    "main.js.map": "/betaThunderWebsite/static/js/main.11dc92d4.chunk.js.map",
+    "runtime~main.js": "/betaThunderWebsite/static/js/runtime~main.f22e6e01.js",
+    "runtime~main.js.map": "/betaThunderWebsite/static/js/runtime~main.f22e6e01.js.map",
+    "static/js/2.545f1ecf.chunk.js": "/betaThunderWebsite/static/js/2.545f1ecf.chunk.js",
+    "static/js/2.545f1ecf.chunk.js.map": "/betaThunderWebsite/static/js/2.545f1ecf.chunk.js.map",
+    "index.html": "/betaThunderWebsite/index.html",
+    "precache-manifest.6ebf15a69bd29b2252078402665f8acc.js": "/betaThunderWebsite/precache-manifest.6ebf15a69bd29b2252078402665f8acc.js",
+    "service-worker.js": "/betaThunderWebsite/service-worker.js",
+    "static/css/main.232f9f06.chunk.css.map": "/betaThunderWebsite/static/css/main.232f9f06.chunk.css.map",
+    "static/media/Daniel.jpg": "/betaThunderWebsite/static/media/Daniel.5fb002c6.jpg",
+    "static/media/Emil.jpg": "/betaThunderWebsite/static/media/Emil.af0f3967.jpg",
+    "static/media/Gustav.jpg": "/betaThunderWebsite/static/media/Gustav.03d08a97.jpg",
+    "static/media/Joakim.jpg": "/betaThunderWebsite/static/media/Joakim.00e5938f.jpg",
+    "static/media/Simon.jpg": "/betaThunderWebsite/static/media/Simon.5fae36c7.jpg",
+    "static/media/Timmy.jpg": "/betaThunderWebsite/static/media/Timmy.0bd467c5.jpg"
+  }
+}
