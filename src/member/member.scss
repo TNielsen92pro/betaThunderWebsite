@@ -1,0 +1,63 @@
+.memberImage {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(145, 143, 143, 0.3);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.imgWrapper {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: content-box;
+  height: auto;
+  width: 200px;
+  opacity: 0.7;
+  transition: opacity 0.4s;
+  text-decoration: none;
+  border: 1px solid rgba(24, 105, 255, 0.6);
+  justify-self: center;
+
+  &:hover {
+    cursor: default;
+    opacity: 1;
+    border-color: gold;
+    transition: opacity 0.4s, border-color 0.4s;
+  }
+}
+
+.breadText {
+  margin: 0;
+  margin-right: 5px;
+  text-align: left;
+}
+
+.invitedPoster {
+  border: 1px solid rgb(127, 243, 81);
+}
+
+.qualifiedPoster {
+  border: 1px solid rgb(153, 93, 93);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height: 200px;
+  width: 200px;
+  border-radius: 0px 0px 10px 10px;
+  color: rgb(5, 5, 5);
+  background: rgba(255, 255, 255, 1);
+}
+
+.nameText {
+  font-weight: bold;
+  font-style: italic;
+  margin: 0px;
+}
+
+.checkIcon {
+  color: rgb(66, 216, 66);
+}

@@ -1,0 +1,42 @@
+$header-height: 100px;
+
+.headerWrapper {
+  display: flex;
+  height: $header-height;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid rgb(24, 105, 255);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.orcImage {
+  height: 100px;
+}
+
+.headerColumn1 {
+  align-items: center;
+  height: 100px;
+  flex: 1;
+}
+
+.welcomeText {
+  margin-top: 20px;
+  font-size: 30px;
+  text-shadow: rgb(24, 105, 255) 0px -8px 10px;
+  margin-bottom: 0;
+
+  @media (max-width: 700px) {
+    font-size: 15px;
+  }
+}
+
+.welcomeCitation {
+  margin-top: 0;
+  font-style: italic;
+}
