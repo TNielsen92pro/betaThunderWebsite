@@ -12,5 +12,6 @@ const routing = (
   </Router >
 )
 
-ReactDOM.render(routing, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
+serviceWorker.unregister();
