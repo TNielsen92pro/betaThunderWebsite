@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/betaThunderWebsite/precache-manifest.c029849ffa62dfec686fedb7b12c5b05.js"
+  "/betaThunderWebsite/precache-manifest.81376a03ee0a0c7fbaaf52c80cdbc892.js"
 );
 
 self.addEventListener('message', (event) => {
